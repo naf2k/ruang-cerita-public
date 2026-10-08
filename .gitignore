@@ -1,0 +1,26 @@
+# Next.js
+.next/
+out/
+node_modules/
+next-env.d.ts
+tsconfig.tsbuildinfo
+
+# Supabase
+supabase/.branches
+supabase/.temp
+.env
+.env.local
+.env*.local
+
+# OS / editor
+.DS_Store
+*.pem
+
+# Legacy static prototype (tetap jadi referensi, bukan bagian build)
+# *.html tetap di-commit sebagai referensi desain.
+testsprite_tests/tmp/
+testsprite_tests/tmp/config.json
+.vercel
+.env*
+
+.vercel

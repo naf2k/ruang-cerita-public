@@ -1,0 +1,8 @@
+# Upload lebih ramping ke Vercel (tidak memengaruhi build).
+# Pola ber-awalan / hanya cocok di root agar lib/supabase TIDAK ikut terkecuali.
+/testsprite_tests
+/scripts
+/supabase
+/.commandcode
+/.opencode
+*.html
